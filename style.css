@@ -1,0 +1,156 @@
+/*
+:root {
+  --Background: #fffadc;
+  --menu: #888c14;
+  --text: #592816;
+  --cta: #d97f30;
+  --menu-hover: #7c801d;
+  --menutext: #fffadc;
+  --cta-text: #fffadc;
+  --h1text: #d97f30;
+
+  --cta-hover: #9e4728;
+}
+*/
+/*
+:root {
+  --Background: #f7f8f6;
+  --menu: #9f806b;
+  --text: #90a2a5;
+  --cta: #b67a37;
+  --menu-hover: #b67a37;
+  --menutext: #f7f8f6;
+  --cta-text: #f7f8f6;
+  --h1text: #b67a37;
+
+  --cta-hover: #592816;
+}
+*/
+
+:root {
+  --Background: #ffffff;
+  --menu: #cd0000;
+  --text: #1d1b1b;
+  --cta: #cd0000;
+  --menu-hover: #d8964c;
+  --menutext: #f7f8f6;
+  --cta-text: #f7f8f6;
+  --h1text: #050505;
+
+  --cta-hover: #d8964c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--Background);
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: var(--text);
+}
+header {
+  background-color: var(--menu);
+  padding: 10px;
+}
+nav {
+  color: var(--menu);
+  color: var(--menutext);
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+h1 {
+  color: var(--h1text);
+}
+.color-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+button.cta-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: var(--cta);
+  color: var(--cta-text);
+  border: none;
+  cursor: pointer;
+  transition: 200ms;
+}
+button.cta-button:hover {
+  background-color: var(--cta-hover);
+  border-radius: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--menutext);
+  transition: 420ms;
+}
+
+a:hover {
+  background-color: var(--menu-hover);
+}
+
+/* Color Theme Swatches in Hex */
+.Smagsoplevelse-1-hex {
+  color: #888c14;
+}
+.Smagsoplevelse-2-hex {
+  color: #d97f30;
+}
+.Smagsoplevelse-3-hex {
+  color: #592816;
+}
+.Smagsoplevelse-4-hex {
+  color: #a61103;
+}
+.Smagsoplevelse-5-hex {
+  color: #f2f2f2;
+}
+
+/* Color Theme Swatches in RGBA */
+.Smagsoplevelse-1-rgba {
+  color: rgba(136, 140, 19, 1);
+}
+.Smagsoplevelse-2-rgba {
+  color: rgba(216, 126, 47, 1);
+}
+.Smagsoplevelse-3-rgba {
+  color: rgba(89, 40, 22, 1);
+}
+.Smagsoplevelse-4-rgba {
+  color: rgba(165, 16, 3, 1);
+}
+.Smagsoplevelse-5-rgba {
+  color: rgba(242, 242, 242, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Smagsoplevelse-1-hsla {
+  color: hsla(61, 75, 31, 1);
+}
+.Smagsoplevelse-2-hsla {
+  color: hsla(28, 68, 51, 1);
+}
+.Smagsoplevelse-3-hsla {
+  color: hsla(16, 59, 21, 1);
+}
+.Smagsoplevelse-4-hsla {
+  color: hsla(5, 96, 33, 1);
+}
+.Smagsoplevelse-5-hsla {
+  color: hsla(0, 0, 95, 1);
+}
